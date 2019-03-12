@@ -1,5 +1,4 @@
 git init
-
 git add file1
 git commit -m "message"
 git checkout file1
@@ -8,3 +7,7 @@ git reset HEAD file1
 git diff file1
 git diff --staged
 git log --oneline
+git commit -ament -m "message"
+git remote add origin https://github.com/jthom35/Devops.gi
+git remote -v
+git push -u origin master
