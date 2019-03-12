@@ -8,6 +8,16 @@ git diff file1
 git diff --staged
 git log --oneline
 git commit -ament -m "message"
-git remote add origin https://github.com/jthom35/Devops.gi
+git remote add origin https://github.com/jthom35/Devops.git
 git remote -v
 git push -u origin master
+git clone https://github.com/jthom35/Devops.git
+git pull
+git reset --soft HEAD^
+git reset --hard HEAD^
+
+Branching
+----------
+git branch ; shows the branch details
+git branch newbranch; creates a new branch named newbranch
+git checkout newbranch; switch branch from master to newbranch
