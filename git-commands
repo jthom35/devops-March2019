@@ -21,3 +21,8 @@ Branching
 git branch ; shows the branch details
 git branch newbranch; creates a new branch named newbranch
 git checkout newbranch; switch branch from master to newbranch
+go to master branch; git merge newbranch
+git branch -d newbranch; deleting newbranch
+git push origin:test ; delete branch from remote repository
+git push -u origin newbranch
+git branch -r
