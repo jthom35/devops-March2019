@@ -1,0 +1,10 @@
+git init
+
+git add file1
+git commit -m "message"
+git checkout file1
+git rm --cached file1
+git reset HEAD file1
+git diff file1
+git diff --staged
+git log --oneline
